@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convert JSON Data to HTML Table</title>
+    <style>
+        table, th, td 
+        {
+            margin:10px 0;
+            border:solid 1px #333;
+            padding:2px 4px;
+            font:15px Verdana;
+        }
+        th {
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for users by name....">
+    <input type="button" onclick="" value="Find" /> 
+    <div id="showData"></div>
+    <input type="button" onclick="sortAZ()" value="Sort Ascending" /> 
+    <input type="button" onclick="sortZA()" value="Sort Descending" /> 
+</body>
+<script type="text/javascript" src="data.js"></script>
+</html>
